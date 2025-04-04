@@ -57,8 +57,8 @@ local function unloadScript()
 end
 
 local unloadButton = Instance.new("TextButton")
-unloadButton.Size = UDim2.new(1, 15, 0, 20) -- Размер кнопки
-unloadButton.Position = UDim2.new(0, 200, 0, frame.Size.Y.Offset) -- Позиция под кнопками
+unloadButton.Size = UDim2.new(1, 15, 0, 20)
+unloadButton.Position = UDim2.new(0, 200, 0, frame.Size.Y.Offset)
 unloadButton.Text = "Unload"
 unloadButton.BackgroundColor3 = Color3.new(0.4, 0.4, 0.4)
 unloadButton.TextColor3 = Color3.new(1, 1, 1)
